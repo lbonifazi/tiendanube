@@ -1,0 +1,27 @@
+{
+  "name": "tienda-nube-automation",
+  "version": "1.0.0",
+  "private": true,
+  "author": "QA Automation",
+  "scripts": {
+    "tsc": "tsc",
+    "setup": "npm install && webdriver-manager update",
+    "local-test": "tsc && protractor src/config/config.js --suite test"
+  },
+  "dependencies": {
+    "@types/jasmine": "^2.6.2",
+    "@types/jasminewd2": "^2.0.3",
+    "@types/node": "^6.0.80",
+    "@types/selenium-webdriver": "^3.0.6",
+    "jasmine-reporters": "^2.2.1",
+    "jasmine-spec-reporter": "^4.2.1",
+    "protractor": "^5.1.2",
+    "protractor-html-reporter": "^1.3.2",
+    "protractor-image-comparison": "^1.5.1",
+    "protractor-jasmine2-html-reporter": "0.0.7",
+    "reflect-metadata": "^0.1.10",
+    "tslint": "^5.7.0",
+    "typescript": "^2.6.1",
+    "xmlhttprequest": "^1.8.0"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "declaration": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "removeComments": true,
+    "noImplicitAny": false,
+    "sourceMap": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "outDir": "src",
+    "mapRoot": "src",
+    "target": "es6",
+    "types": ["node","jasmine"],
+    "typeRoots": [ "../node_modules/@types" ]
+    },
+    "exclude": [
+        "node_modules"
+        ]
+}

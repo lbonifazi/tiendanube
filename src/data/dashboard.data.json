@@ -1,0 +1,19 @@
+{
+    "menuoptions": [
+        "orders",
+        "contacts",
+        "sales_channel",
+        "marketing",
+        "desing",
+        "preferences",
+        "my_account"
+    ],
+    "panels": [
+        "setup_shipping",
+        "setup_payments",
+        "first_steps_webinar",
+        "community",
+        "setup_layout",
+        "setup_first_product"
+    ]
+}
